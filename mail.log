@@ -1,0 +1,93 @@
+Jun 22 07:21:15 ip-172-31-14-27 postfix/postfix-script[15135]: starting the Postfix mail system
+Jun 22 07:21:15 ip-172-31-14-27 postfix/master[15137]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 22 07:37:52 ip-172-31-14-27 postfix/postfix-script[15667]: stopping the Postfix mail system
+Jun 22 07:37:52 ip-172-31-14-27 postfix/master[15137]: terminating on signal 15
+Jun 22 07:37:52 ip-172-31-14-27 postfix/postfix-script[15822]: starting the Postfix mail system
+Jun 22 07:37:52 ip-172-31-14-27 postfix/master[15824]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 22 11:22:18 ip-172-31-14-27 postfix/postfix-script[17256]: stopping the Postfix mail system
+Jun 22 11:22:18 ip-172-31-14-27 postfix/master[15824]: terminating on signal 15
+Jun 22 11:23:58 ip-172-31-14-27 postfix/postfix-script[17904]: warning: not owned by group postdrop: /usr/sbin/postqueue
+Jun 22 11:23:58 ip-172-31-14-27 postfix/postfix-script[17905]: warning: not owned by group postdrop: /usr/sbin/postdrop
+Jun 22 11:23:58 ip-172-31-14-27 postfix/postfix-script[17907]: warning: not set-gid or not owner+group+world executable: /usr/sbin/postqueue
+Jun 22 11:23:58 ip-172-31-14-27 postfix/postfix-script[17908]: warning: not set-gid or not owner+group+world executable: /usr/sbin/postdrop
+Jun 22 11:23:58 ip-172-31-14-27 postfix/postfix-script[17936]: starting the Postfix mail system
+Jun 22 11:23:58 ip-172-31-14-27 postfix/master[17938]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 22 11:23:59 ip-172-31-14-27 postfix/postfix-script[18061]: stopping the Postfix mail system
+Jun 22 11:23:59 ip-172-31-14-27 postfix/master[17938]: terminating on signal 15
+Jun 22 11:23:59 ip-172-31-14-27 postfix/postfix-script[18216]: starting the Postfix mail system
+Jun 22 11:23:59 ip-172-31-14-27 postfix/master[18218]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 22 11:32:31 ip-172-31-14-27 postfix/postmap[18436]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:36:20 ip-172-31-14-27 postmulti[18456]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:36:20 ip-172-31-14-27 postfix[18457]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:36:20 ip-172-31-14-27 postfix/master[18462]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:36:20 ip-172-31-14-27 postfix/postlog[18463]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:36:20 ip-172-31-14-27 postfix/postfix-script[18463]: refreshing the Postfix mail system
+Jun 22 11:36:20 ip-172-31-14-27 postfix/postsuper[18464]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:36:20 ip-172-31-14-27 postfix/master[18218]: reload -- version 3.3.0, configuration /etc/postfix
+Jun 22 11:36:20 ip-172-31-14-27 postfix/master[18218]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:36:20 ip-172-31-14-27 postfix/postsuper[18466]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:36:20 ip-172-31-14-27 postfix/qmgr[18487]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:36:20 ip-172-31-14-27 postfix/pickup[18486]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:39:24 ip-172-31-14-27 postfix/sendmail[18907]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:39:24 ip-172-31-14-27 postfix/postdrop[18909]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:39:24 ip-172-31-14-27 postfix/cleanup[18910]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:39:24 ip-172-31-14-27 postfix/pickup[18486]: 7992580709: uid=0 from=<root@ip-172-31-14-27.ap-south-1.compute.internal>
+Jun 22 11:39:24 ip-172-31-14-27 postfix/trivial-rewrite[18911]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:39:24 ip-172-31-14-27 postfix/cleanup[18910]: 7992580709: message-id=<20200622113924.7992580709@ip-172-31-14-27.ap-south-1.compute.internal>
+Jun 22 11:39:24 ip-172-31-14-27 postfix/qmgr[18487]: 7992580709: from=<root@ip-172-31-14-27.ap-south-1.compute.internal>, size=440, nrcpt=1 (queue active)
+Jun 22 11:39:24 ip-172-31-14-27 postfix/smtp[18914]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:39:24 ip-172-31-14-27 postfix/tlsmgr[18915]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 11:39:27 ip-172-31-14-27 postfix/smtp[18914]: 7992580709: to=<piyushnarsikar@gmail.com>, relay=smtp.gmail.com[74.125.24.109]:587, delay=3.2, delays=0.04/0.06/1.9/1.2, dsn=2.0.0, status=sent (250 2.0.0 OK  1592825967 nl11sm18669065pjb.0 - gsmtp)
+Jun 22 11:39:27 ip-172-31-14-27 postfix/qmgr[18487]: 7992580709: removed
+Jun 22 12:23:54 ip-172-31-14-27 postmulti[19577]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 12:23:54 ip-172-31-14-27 postfix[19579]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 12:23:54 ip-172-31-14-27 postfix/master[19588]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 12:23:54 ip-172-31-14-27 postfix/postlog[19589]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 12:23:54 ip-172-31-14-27 postfix/postfix-script[19589]: stopping the Postfix mail system
+Jun 22 12:23:54 ip-172-31-14-27 postfix/master[18218]: terminating on signal 15
+Jun 22 12:23:54 ip-172-31-14-27 postfix/master[19591]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 22 12:24:21 ip-172-31-14-27 sendmail[20676]: alias database /etc/mail/aliases rebuilt by ubuntu
+Jun 22 12:24:21 ip-172-31-14-27 sendmail[20676]: /etc/mail/aliases: 1 aliases, longest 4 bytes, 14 bytes total
+Jun 22 12:24:21 ip-172-31-14-27 sm-mta[20779]: starting daemon (8.15.2): SMTP+queueing@00:10:00
+Jun 23 11:24:24 ip-172-31-14-27 sendmail[28788]: alias database /etc/mail/aliases rebuilt by ubuntu
+Jun 23 11:24:24 ip-172-31-14-27 sendmail[28788]: /etc/mail/aliases: 1 aliases, longest 4 bytes, 14 bytes total
+Jun 23 11:24:31 ip-172-31-14-27 sm-mta[20779]: restarting /usr/sbin/sendmail-mta due to signal
+Jun 23 11:24:31 ip-172-31-14-27 sm-mta[28839]: starting daemon (8.15.2): SMTP+queueing@00:10:00
+Jun 23 17:52:09 ip-172-31-14-27 postmulti[2864]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:09 ip-172-31-14-27 postfix[2865]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:09 ip-172-31-14-27 postfix/master[2870]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:09 ip-172-31-14-27 postfix/postsuper[2914]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:09 ip-172-31-14-27 postfix/postlog[2928]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:09 ip-172-31-14-27 postfix/postfix-script[2928]: warning: group or other writable: /etc/postfix/./sasl_passwd
+Jun 23 17:52:09 ip-172-31-14-27 postfix/postlog[2939]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:09 ip-172-31-14-27 postfix/postfix-script[2939]: warning: not owned by group postdrop: /usr/sbin/postqueue
+Jun 23 17:52:09 ip-172-31-14-27 postfix/postlog[2940]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:09 ip-172-31-14-27 postfix/postfix-script[2940]: warning: not owned by group postdrop: /usr/sbin/postdrop
+Jun 23 17:52:09 ip-172-31-14-27 postfix/postlog[2942]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:09 ip-172-31-14-27 postfix/postfix-script[2942]: warning: not set-gid or not owner+group+world executable: /usr/sbin/postqueue
+Jun 23 17:52:09 ip-172-31-14-27 postfix/postlog[2943]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:09 ip-172-31-14-27 postfix/postfix-script[2943]: warning: not set-gid or not owner+group+world executable: /usr/sbin/postdrop
+Jun 23 17:52:09 ip-172-31-14-27 postfix/postlog[2971]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:09 ip-172-31-14-27 postfix/postfix-script[2971]: starting the Postfix mail system
+Jun 23 17:52:09 ip-172-31-14-27 postfix/master[2973]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:09 ip-172-31-14-27 postfix/master[2973]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jun 23 17:52:10 ip-172-31-14-27 postfix/master[2972]: fatal: daemon initialization failure
+Jun 23 17:52:11 ip-172-31-14-27 postfix/postlog[2995]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:11 ip-172-31-14-27 postfix/postfix-script[2995]: fatal: mail system startup failed
+Jun 23 17:52:12 ip-172-31-14-27 postmulti[3165]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:12 ip-172-31-14-27 postfix[3166]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:12 ip-172-31-14-27 postfix/master[3171]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:12 ip-172-31-14-27 postfix/postsuper[3210]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:12 ip-172-31-14-27 postfix/postlog[3224]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:12 ip-172-31-14-27 postfix/postfix-script[3224]: warning: group or other writable: /etc/postfix/./sasl_passwd
+Jun 23 17:52:12 ip-172-31-14-27 postfix/postlog[3263]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:12 ip-172-31-14-27 postfix/postfix-script[3263]: starting the Postfix mail system
+Jun 23 17:52:12 ip-172-31-14-27 postfix/master[3265]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:12 ip-172-31-14-27 postfix/master[3265]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jun 23 17:52:13 ip-172-31-14-27 postfix/master[3264]: fatal: daemon initialization failure
+Jun 23 17:52:14 ip-172-31-14-27 postfix/postlog[3266]: warning: /etc/postfix/main.cf, line 47: overriding earlier entry: relayhost=
+Jun 23 17:52:14 ip-172-31-14-27 postfix/postfix-script[3266]: fatal: mail system startup failed
+Jun 23 18:21:29 ip-172-31-14-27 postfix/postfix-script[3827]: starting the Postfix mail system
+Jun 23 18:21:29 ip-172-31-14-27 postfix/master[3829]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jun 23 18:21:30 ip-172-31-14-27 postfix/master[3828]: fatal: daemon initialization failure
+Jun 23 18:21:31 ip-172-31-14-27 postfix/postfix-script[3830]: fatal: mail system startup failed

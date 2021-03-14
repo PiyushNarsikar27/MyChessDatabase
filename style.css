@@ -1,0 +1,452 @@
+#topDiv{
+  margin-bottom: 8%;
+}
+#siteTitle{
+  display: block;
+  float: left;
+  background-color: #240090;
+  width:16%;
+  height:67px;
+  border-radius:5px;
+}
+.navBar{
+  display: block;
+  height:67px;
+  padding: 0;
+  margin: 0;
+  background-color:#950740;
+  border-radius:5px;
+  width:102.5%;
+}
+h1{
+  text-align: center;
+  margin-top:5%;
+  color: #b8bfbf;
+  text-shadow: 2px 2px #000000;
+  font-size:40px;
+}
+.navBarUL{
+padding-top: 15px;
+padding-left:0;
+margin:0;
+}
+.navBarUL li{
+  list-style: none;
+  display:inline;
+  padding-right:20px;
+}
+.navBarUL li a{
+  text-decoration: none;
+  font-size: 30px;
+  color:#e6e6e6;
+  text-shadow: 2px 2px #000000;
+}
+.navBarUL li a:hover{
+  color:#c3c2c1;
+}
+#smallScreen{
+  display: none;
+  text-decoration: none;
+  font-size: 25px;
+  color:#e6e6e6;
+  text-shadow: 2px 2px #000000;
+}
+#smallScreen a{
+  display: inline-block;
+text-align: center;
+margin:4% 2% 3% 10%;
+}
+#smallScreen a:hover{
+  color:#c3c2c1;
+  cursor: pointer;
+}
+#smallScreen1{
+  display: none;
+  text-decoration: none;
+  font-size: 25px;
+  color:#e6e6e6;
+  text-shadow: 2px 2px #000000;
+}
+#smallScreen1 a{
+  display: inline-block;
+  text-align: center;
+  margin:4% 2% 3% 10%;
+}
+#smallScreen1 a:hover{
+  color:#c3c2c1;
+  cursor: pointer;
+}
+.smallScreenUL{
+  display:none;
+  position: absolute;
+  z-index: 1;
+  background-color:#95074F;
+  width:auto;
+  margin-top:5px;
+  border-radius:0px 0px 5px 5px;
+  text-align: center;
+}
+.smallScreenUL a{
+  width:50%;
+  padding-left:90px;
+}
+.smallScreenUL2{
+  display:none;
+  position: absolute;
+  z-index: 1;
+  background-color:#95074F;
+  width:auto;
+  margin-top:5px;
+  border-radius:0px 0px 5px 5px;
+  text-align: center;
+  width:93.5%;
+}
+.smallScreenUL2 a{
+  float: left;
+  clear: left;
+  padding-left:50%;
+}
+#mediumScreen{
+  display: none;
+  text-decoration: none;
+  font-size: 25px;
+  color:#e6e6e6;
+  text-shadow: 2px 2px #000000
+}
+#mediumScreen a:hover{
+  color:#c3c2c1;
+  cursor: pointer;
+}
+#mediumScreen1{
+  display: none;
+  text-decoration: none;
+  font-size: 25px;
+  color:#e6e6e6;
+  text-shadow: 2px 2px #000000
+}
+#mediumScreen1 a:hover{
+  color:#c3c2c1;
+  cursor: pointer;
+}
+.medScreenUL{
+  display:none;
+  position: absolute;
+  z-index: 1;
+  background-color:#95074F;
+  width:auto;
+  margin-top:5px;
+  border-radius:0px 0px 5px 5px;
+  text-align: center;
+}
+.medScreenUL a{
+  float:left;
+  width:80%;
+  padding-left:50px;
+  padding-bottom:8px;
+}
+#footer {
+  font-size:18px;
+  text-align: center;
+  color:#c3c2c1;
+  background-color: #2d2118;
+  margin-top:30px;
+  height:30px;
+}
+#footer p{
+  padding-top:5px;
+}
+#homeContent h2{
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#appealToSignUpOrLogin{
+  text-align: center;
+  padding:23px;
+  border-radius: 8px;
+  margin:0px 20%;
+  background-color:#0C0032;
+}
+#appealToSignUpOrLogin p{
+  font-size: 25px;
+  color: #ff6432;
+  font-family: Impact, Charcoal, sans-serif;
+}
+#appealToSignUpOrLogin a{
+  text-decoration: none;
+  font-size:20px;
+  color: #e6e6e6;
+  background-color: #190061;
+  border:0.5px solid black;
+  border-radius: 2px;
+  padding:5px;
+  font-family: Georgia, serif;
+}
+#appealToSignUpOrLogin a:hover{
+  color:#c3c2c1;
+}
+.form{
+max-width:500px;
+margin:10px auto;
+background-color:#E3AFBC;
+border:0.5px solid black;
+border-radius: 8px;
+padding:10px 25px 10px 10px;
+}
+.form h3{
+  text-align: center;
+  margin:0px 0px 15px 0px;
+  font-size:30px;
+  color: #f00032;
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow:0.25px 0.25px #000;
+
+}
+.form input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea,
+input[type="date"]
+{
+  border:none;
+  height:auto;
+  width:95%;
+  padding:15px;
+  background-color:#E3E2DF;
+  color:#556677;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.form input[type="submit"]{
+  font-size:20px;
+  color: #e6e6e6;
+  background-color:#190061;
+  border:0.5px solid black;
+  border-radius: 2px;
+  padding:5px;
+  width:100%;
+  text-align: center;
+  height:40px;
+  margin:5px 0px;
+}
+.form input[type="submit"]:hover{
+  color:#c3c2c1;
+  cursor:pointer;
+}
+.label{
+  font-size: 20px;
+  text-shadow:0.25px 0.25px #190061;
+}
+.form a{
+  font-size: 18px;
+  text-decoration: none;
+  color:#000555;
+}
+.form a:hover{
+  text-decoration: underline;
+  color:#000000;
+}
+.usernameSpan{
+  font-size: 30px;
+  color:green;
+  display:block;
+  text-align:center;
+}
+.showcase{
+  border:1.75px solid black;
+  border-radius: 4px;
+  padding:50px;
+}
+#userProfile{
+  margin-bottom:20px;
+}
+#userProfile p{
+  font-size:25px;
+  text-align: center;
+  font-family: Georgia, serif;
+}
+#userProfile h3{
+  font-size: 25px;
+  font-weight: normal;
+}
+#userProfile article{
+  font-size:18px;
+}
+.categoryOrGameList{
+  width:70%;
+  margin:10px auto;
+  background-color: #0C0032;
+  border-radius: 8px;
+}
+.categoryOrGameList ul{
+  padding:5px
+}
+.categoryOrGameList li{
+  margin:0px 0px 10px 20px;
+  color:#fff000;
+}
+.categoryOrGameList a{
+  font-size:20px;
+  text-decoration: none;
+  color: #ff6432;
+  font-family: Impact, Charcoal, sans-serif;
+}
+.categoryOrGameList a:hover{
+  opacity:70%;
+}
+.categoryOrGameList h3{
+  text-align: center;
+  margin:0px 0px 15px 0px;
+  font-size:30px;
+  color: #f00032;
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow:0.25px 0.25px #000;
+
+}
+#shareButton{
+  margin-top:40px;
+  display: block;
+  text-align: center;
+}
+#shareButton a{
+  text-decoration: none;
+  font-size:20px;
+  color: #e6e6e6;
+  background-color:#190061;
+  border:0.5px solid black;
+  border-radius: 2px;
+  padding:5px;
+}
+#shareButton a:hover{
+    color:#c3c2c1;
+}
+#gameInfo article{
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+#gameInfo h2{
+  text-align: center;
+  font-size:30px;
+  color: #f00032;
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow:0.25px 0.25px #000;
+  padding:10px;
+}
+#gameInfo h3{
+  text-align: center;
+  font-size:20px;
+  color:#950740;
+}
+#gameInfo p{
+  text-align: center;
+  font-size:15px;
+  color:#000fff;
+}
+#gamePageContainer{
+  background-color:#0C0032;
+  border-radius:8px;
+}
+textarea{
+  resize: vertical;
+}
+#addGameContainer h2{
+  text-align: center;
+  font-size: 35px;
+}
+#verificationMessage{
+  color:red;
+  font-size: 30px;
+  text-align: center;
+}
+#aboutSection h2{
+  font-size: 30px;
+}
+#aboutSection p{
+  border:1px solid black;
+  padding:25px;
+  border-radius:3px;
+  font-size: 20px;
+  line-height: 25px;
+  font-family:sans-serif;
+}
+#contactSection h2{
+    font-size: 30px;
+}
+@media screen and (max-width:1288px){
+  .medScreenHide1{
+    display:none;
+  }
+  #mediumScreen1{
+    display:inline;
+  }
+}
+@media screen and (max-width:950px){
+  #siteTitle{
+    width:30%;
+    font-size:73%;
+  }
+
+  .medScreenHide{
+    display:none;
+  }
+  #mediumScreen{
+    display: inline;
+  }
+  .navBarUL li a{
+    font-size:20px;
+  }
+}
+@media screen and (max-width:499px){
+  #siteTitle{
+    width:50%;
+    font-size:73%;
+  }
+  .smallScreenHide{
+    display:none;
+  }
+  #mediumScreen{
+    display:none;
+  }
+  #mediumScreen1{
+    display: none;
+  }
+  #smallScreen{
+    display: inline;
+  }
+  #smallScreen1{
+    display: inline;
+  }
+}
+@media screen and (max-width:340px){
+  .categoryOrGameList ul li a{
+    font-size:10px;
+  }
+  .usernameSpan{
+    font-size:16px;
+  }
+}
+@media screen and (max-width:275px){
+  #smallScreen a{
+    margin:5% 3% 3% 3%;
+  }
+  #smallScreen1 a{
+    margin:5% 3% 3% 3%;
+  }
+  #shareButton a{
+    font-size:50%;
+  }
+}
+@media screen and (max-width:241px){
+  #siteTitle{
+    width:30%;
+  }
+  h1{
+    font-size:200%;
+  }
+  .smallScreenUL{
+    margin-left:30%;
+  }
+}
